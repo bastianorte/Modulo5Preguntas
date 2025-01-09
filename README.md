@@ -1,4 +1,13 @@
-Preguntas Teóricas sobre TypeScript (2 puntos)
+# Introducción a TypeScript en ReactJS
+
+## 📖 Descripción
+En esta evaluación, los estudiantes participarán en una sesión de preguntas y respuestas
+donde discutirán los conceptos fundamentales de TypeScript, sus diferencias con JavaScript,
+y su aplicación en ReactJS. Además, los estudiantes resolverán ejercicios prácticos que
+involucren la definición de tipos, inferencia de tipos, y el uso de interfaces y clases en un
+proyecto basado en ReactJS.
+
+### Preguntas Teóricas sobre TypeScript (2 puntos)
 - Los estudiantes deberán responder a preguntas sobre los conceptos clave de
 TypeScript, incluyendo:
 - ¿Qué es TypeScript y para qué se utiliza?
@@ -6,7 +15,7 @@ TypeScript, incluyendo:
 TypeScript es un lenguaje de programación que se basa en JavaScript. Lo que lo hace especial es que agrega tipos a JavaScript.
 Los tipos son como etiquetas que dicen qué tipo de datos estás usando, como números o texto. Esto ayuda a encontrar errores antes de que el programa se ejecute, lo que hace que sea más fácil escribir y mantener el código.
 
-- ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
+### ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
 
 Característica
 TypeScript
