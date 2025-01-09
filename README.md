@@ -37,25 +37,23 @@ Tiempo de compilación: Aumenta el tiempo de compilación debido al proceso de t
 - ¿Por qué es útil TypeScript en el desarrollo de aplicaciones ReactJS?
 
 TypeScript mejora la calidad y mantenibilidad del código en aplicaciones ReactJS al:
-
-Detectar errores temprano: Encuentra errores durante el desarrollo.
-Autocompletado y navegación: Facilita la escritura y mantenimiento del código.
-Definir tipos de propiedades: Hace el código más claro y entendible.
-Permitir refactorización segura: Facilita realizar cambios sin errores.
-Proveer documentación implícita: Ayuda a otros desarrolladores a entender el código.
-
+1. Detectar errores temprano: Encuentra errores durante el desarrollo.
+2. Autocompletado y navegación: Facilita la escritura y mantenimiento del código.
+3. Definir tipos de propiedades: Hace el código más claro y entendible.
+4. Permitir refactorización segura: Facilita realizar cambios sin errores.
+5. Proveer documentación implícita: Ayuda a otros desarrolladores a entender el código.
 
 
-- ¿Qué es el sistema de tipos en TypeScript y cómo ayuda a evitar errores en
-tiempo de desarrollo?
+
+- ¿Qué es el sistema de tipos en TypeScript y cómo ayuda a evitar errores en tiempo de desarrollo?
 
 El sistema de tipos en TypeScript es una herramienta que permite definir y restringir los tipos de datos (como números, textos, objetos, etc.) que se pueden usar en el código. Las características más importantes de TypeScript son:
 
-Definición de tipos: Puedes especificar qué tipo de datos se espera en una variable, función o propiedad. Por ejemplo, puedes declarar que una variable debe ser siempre un número.
-Detección de errores: Al definir tipos, TypeScript puede detectar errores de tipo en tiempo de desarrollo. Por ejemplo, si intentas asignar un texto a una variable que debería ser un número, TypeScript marcará un error antes de ejecutar el código.
-Autocompletado: Los editores de código que soportan TypeScript pueden ofrecer sugerencias y autocompletado basados en los tipos definidos, lo que facilita escribir código correctamente y más rápido.
-Refactorización segura: Al tener los tipos definidos, hacer cambios en el código es más seguro, ya que TypeScript se asegura de que los tipos coincidan correctamente en todo el proyecto.
-Documentación implícita: Los tipos actúan como documentación que describe qué se espera en cada parte del código, lo que facilita entender y mantener el proyecto.
+* Definición de tipos: Puedes especificar qué tipo de datos se espera en una variable, función o propiedad. Por ejemplo, puedes declarar que una variable debe ser siempre un número.
+* Detección de errores: Al definir tipos, TypeScript puede detectar errores de tipo en tiempo de desarrollo. Por ejemplo, si intentas asignar un texto a una variable que debería ser un número, TypeScript marcará un error antes de ejecutar el código.
+* Autocompletado: Los editores de código que soportan TypeScript pueden ofrecer sugerencias y autocompletado basados en los tipos definidos, lo que facilita escribir código correctamente y más rápido.
+* Refactorización segura: Al tener los tipos definidos, hacer cambios en el código es más seguro, ya que TypeScript se asegura de que los tipos coincidan correctamente en todo el proyecto.
+* Documentación implícita: Los tipos actúan como documentación que describe qué se espera en cada parte del código, lo que facilita entender y mantener el proyecto.
 
 En resumen, el sistema de tipos de TypeScript ayuda a evitar errores, mejora la productividad y hace que el código sea más claro y mantenible.
 
