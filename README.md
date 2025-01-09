@@ -17,23 +17,12 @@ Los tipos son como etiquetas que dicen qué tipo de datos estás usando, como n�
 
 ### ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
 
-Característica
-TypeScript
-JavaScript
-Tipado
-Estático, fuerte
-Dinámico, débil
-Verificación de tipos
-En tiempo de compilación
-En tiempo de ejecución
-Soporte de IDE
-Mejor autocompletado y
-refactorización
-Autocompletado limitado
-Compatibilidad
-Compila a JavaScript
-Nativo en navegadores
-
+Característica | TypeScript | JavaScript
+| :--- | ---: | :---:
+Tipado  | Estático, fuerte | Dinámico, débil
+Verificación de tipos | En tiempo de compilación | En tiempo de ejecución
+Soporte de IDE | Mejor autocompletado y refactorización | Autocompletado limitado
+Compatibilidad | Compila a JavaScript | Nativo en navegadores
 
 Ventajas:
 Tipado estático: Detección temprana de errores y mejor legibilidad del código.
