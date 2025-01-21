@@ -1,12 +1,25 @@
-import { useState, useEffect } from 'react';
-import DoctorCard from './DoctorCard';
+import { useState, useEffect } from 'react'
+import DoctorCard from './DoctorCard'
+
+// Define la interfaz de los datos de los doctores
+
+interface Doctor {
+  id: number;
+  name: string;
+  genero: string;
+  imagen: string;
+  especialidad: string;
+  experiencia: number;
+  email: string;
+  phone: number;
+}
+
 
 
 const ApiDoctores = () => {
   const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [reload, setReload] = useState(false); 
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string>("");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -19,34 +32,37 @@ const ApiDoctores = () => {
         }
 
 
+ 
         const genero = ['m','f']
         const especialidades = ['Cardiología', 'Pediatría', 'Neurología', 'Dermatología']
 
-        const jsonData = await response.json();
-        const doctores = jsonData.map(user=> {
+        const jsonData = (await response.json()) as Doctor[];
+
+        const doctores:Doctor[] = jsonData.map((doctor:Doctor) => {
             return {
-                id: user.id,
-                nombre: user.name,
+                id: doctor.id,
+                name: doctor.name,
                 genero: genero[Math.floor(Math.random()*genero.length)],
                 imagen: `assets/pr${Math.floor(Math.random()*11+1)}.jpg`,
                 especialidad: especialidades[Math.floor(Math.random()*especialidades.length)],
                 experiencia: Math.floor(Math.random()*10+1),
-                contacto:{
-                    telefono: user.phone,
-                    email: user.email
-                }
+                phone: doctor.phone,
+                email: doctor.email                
             }
         })
+
         setData(doctores);
         setLoading(false);
-      } catch (error) {
-        setError(error.message);
-        setLoading(false);
-      }    
+      } catch (e) {
+        if (e instanceof Error) {
+          setError(e.message);
+          setLoading(false);
+        }
+      }
     };
 
     fetchData();
-  }, [reload]);
+  }, [setLoading]);
 
 
 
