@@ -65,7 +65,7 @@ de ReactJS. Se les proporcionará una función que toma como parámetro datos so
 doctores del hospital, y deberán definir los tipos correctos para los parámetros y el valor
 de retorno.
 
-### Además, se evaluará cómo TypeScript infiere los tipos automáticamente en
+* Además, se evaluará cómo TypeScript infiere los tipos automáticamente en
 ciertos casos.
 
 
