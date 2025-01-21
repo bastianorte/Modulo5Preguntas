@@ -12,7 +12,7 @@ console.log(pacientes)
 
 <> 
 <h2 className="text-balance text-2xl font-semibold tracking-tight text-primary sm:text-4xl text-center">Citas Agendada</h2>
-    <Card className="h-full w-96 overflow-scroll mx-auto mb-10 mt-6">
+    <div className="h-full w-96 overflow-scroll mx-auto mb-10 mt-6">
       <table className="w-full min-w-max table-auto text-left">
         <thead>
           <tr>
@@ -56,7 +56,7 @@ console.log(pacientes)
           ))}
         </tbody>
       </table>
-    </Card>
+    </div>
 </>
 ): (
   <h2 className="text-balance font-semibold tracking-tight text-primary sm:text-4xl text-center mb-6">No hay citas agendadas</h2>
