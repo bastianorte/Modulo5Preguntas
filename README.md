@@ -59,23 +59,7 @@ El sistema de tipos en TypeScript es una herramienta que permite definir y restr
 
 En resumen, el sistema de tipos de TypeScript ayuda a evitar errores, mejora la productividad y hace que el código sea más claro y mantenible.
 
-## 2. Ejercicio Práctico: Definiendo Tipos e Inferencia (1 punto)
-- En este ejercicio práctico, los estudiantes deberán definir y utilizar tipos en una función
-de ReactJS. Se les proporcionará una función que toma como parámetro datos sobre
-doctores del hospital, y deberán definir los tipos correctos para los parámetros y el valor
-de retorno.
 
-* Además, se evaluará cómo TypeScript infiere los tipos automáticamente en
-ciertos casos.
-
-
-
-## 3. Definición de Interfaces y Clases en TypeScript (1 punto)
-- Los estudiantes deberán definir una interfaz para representar los datos de un doctor y
-una clase que implemente esta interfaz. Esta clase deberá contener métodos para
-obtener información detallada de los doctores del hospital y actualizar su especialidad.
-- Se evaluará si la interfaz y la clase están correctamente definidas y si cumplen
-con las reglas de TypeScript.
 
 
 
