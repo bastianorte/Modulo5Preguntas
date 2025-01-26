@@ -1,6 +1,15 @@
 import { useEffect, useRef, useState } from 'react'
 
-export default function AppointmentForm({setPacientes,doctores}) {
+
+interface Doctor {
+  nombre: string;
+}
+interface AppointmentFormProps {
+  setPacientes:(key: string, value: string | number) => void;
+  doctores:Doctor[];
+}
+
+const AppointmentForm: React.FC<AppointmentFormProps> = ({setPacientes,doctores}) => {
 
   const [paciente, setPaciente] = useState({nombre:"",doctor:"",fecha:"",hora:""});    
 
@@ -131,3 +140,4 @@ setPaciente ({nombre:"",doctor:"",fecha:"",hora:""})
   )
 }
 
+export default AppointmentForm;
