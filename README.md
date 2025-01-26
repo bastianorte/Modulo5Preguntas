@@ -7,17 +7,17 @@ y su aplicación en ReactJS. Además, los estudiantes resolverán ejercicios pr�
 involucren la definición de tipos, inferencia de tipos, y el uso de interfaces y clases en un
 proyecto basado en ReactJS.
 
-### Preguntas Teóricas sobre TypeScript (2 puntos)
+## Preguntas Teóricas sobre TypeScript (2 puntos)
 Los estudiantes deberán responder a preguntas sobre los conceptos clave de
 TypeScript, incluyendo:
 
 
-#### ¿Qué es TypeScript y para qué se utiliza?
+### ¿Qué es TypeScript y para qué se utiliza?
 
 TypeScript es un lenguaje de programación que se basa en JavaScript. Lo que lo hace especial es que agrega tipos a JavaScript.
 Los tipos son como etiquetas que dicen qué tipo de datos estás usando, como números o texto. Esto ayuda a encontrar errores antes de que el programa se ejecute, lo que hace que sea más fácil escribir y mantener el código.
 
-#### ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
+### ¿Cuáles son las principales diferencias entre TypeScript y JavaScript?
 
 Característica | TypeScript | JavaScript
 | :--- | :--- | :---
@@ -36,7 +36,7 @@ Curva de aprendizaje: Requiere aprender conceptos adicionales como tipos y inter
 Tiempo de compilación: Aumenta el tiempo de compilación debido al proceso de transpilación a JavaScript.
 
 
-#### ¿Por qué es útil TypeScript en el desarrollo de aplicaciones ReactJS?
+### ¿Por qué es útil TypeScript en el desarrollo de aplicaciones ReactJS?
 
 TypeScript mejora la calidad y mantenibilidad del código en aplicaciones ReactJS al:
 1. Detectar errores temprano: Encuentra errores durante el desarrollo.
@@ -47,7 +47,7 @@ TypeScript mejora la calidad y mantenibilidad del código en aplicaciones ReactJ
 
 
 
-#### ¿Qué es el sistema de tipos en TypeScript y cómo ayuda a evitar errores en tiempo de desarrollo?
+### ¿Qué es el sistema de tipos en TypeScript y cómo ayuda a evitar errores en tiempo de desarrollo?
 
 El sistema de tipos en TypeScript es una herramienta que permite definir y restringir los tipos de datos (como números, textos, objetos, etc.) que se pueden usar en el código. Las características más importantes de TypeScript son:
 
@@ -59,7 +59,7 @@ El sistema de tipos en TypeScript es una herramienta que permite definir y restr
 
 En resumen, el sistema de tipos de TypeScript ayuda a evitar errores, mejora la productividad y hace que el código sea más claro y mantenible.
 
-### 2. Ejercicio Práctico: Definiendo Tipos e Inferencia (1 punto)
+## 2. Ejercicio Práctico: Definiendo Tipos e Inferencia (1 punto)
 - En este ejercicio práctico, los estudiantes deberán definir y utilizar tipos en una función
 de ReactJS. Se les proporcionará una función que toma como parámetro datos sobre
 doctores del hospital, y deberán definir los tipos correctos para los parámetros y el valor
@@ -70,25 +70,13 @@ ciertos casos.
 
 
 
-### 3. Definición de Interfaces y Clases en TypeScript (1 punto)
+## 3. Definición de Interfaces y Clases en TypeScript (1 punto)
 - Los estudiantes deberán definir una interfaz para representar los datos de un doctor y
 una clase que implemente esta interfaz. Esta clase deberá contener métodos para
 obtener información detallada de los doctores del hospital y actualizar su especialidad.
 - Se evaluará si la interfaz y la clase están correctamente definidas y si cumplen
 con las reglas de TypeScript.
 
-### 4. TypeScript y ReactJS: Implementación Básica en un Componente
-(1.5 puntos)
-- Los estudiantes deberán crear un componente funcional en ReactJS utilizando
-TypeScript. El componente debe recibir props que representen los datos de un doctor y
-mostrar esta información en la interfaz.
-- Se evaluará el uso de props tipados en TypeScript y la correcta implementación
-de tipos en el componente.
 
-### 5. Ventajas de TypeScript en el Desarrollo con ReactJS (1 punto)
-- Se evaluará la comprensión de los estudiantes sobre las ventajas de utilizar TypeScript
-en proyectos basados en ReactJS. Esto puede incluir la detección temprana de errores,
-la autocompletación en editores de código, y la mejora en la productividad y el
-mantenimiento del código.
-- Se pedirá a los estudiantes que den ejemplos de cómo TypeScript mejora el
-desarrollo en React en comparación con JavaScript puro.
+
+
